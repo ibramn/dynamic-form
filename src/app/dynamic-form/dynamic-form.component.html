@@ -1,0 +1,7 @@
+<app-dynamic-form-field
+    [fields]="fields"
+    [form]="form"
+    (onChange)="onChange.emit($event)"
+></app-dynamic-form-field>
+
+<button (click)="onSubmit()">Submit</button>
